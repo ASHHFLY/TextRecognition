@@ -1,0 +1,7 @@
+qry= '''
+create table images1 (
+   kernel int,
+   image blob,
+   primary key(kernel)
+);'''
+session.execute(qry)
